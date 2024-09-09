@@ -19,6 +19,7 @@ const MobileNav = () => {
           alt="logo"
           width={180}
           height={28}
+          priority
         />
       </Link>
 
@@ -34,6 +35,7 @@ const MobileNav = () => {
                 width={32}
                 height={32}
                 className="cursor-pointer"
+                priority
               />
             </SheetTrigger>
             <SheetContent className="sheet-content sm:w-64">
@@ -43,6 +45,7 @@ const MobileNav = () => {
                   alt="logo"
                   width={152}
                   height={23}
+                  priority
                 />
 
               <ul className="header-nav_elements">
@@ -60,6 +63,7 @@ const MobileNav = () => {
                         alt="logo"
                         width={24}
                         height={24}
+                        priority
                       />
                       {link.label}
                     </Link>
